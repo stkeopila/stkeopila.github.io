@@ -4,6 +4,7 @@
     --cg-blue: rgb(36, 94, 255);
     --cg-grey: rgb(243, 243, 243);
     --cg-white: rgb(255, 255, 255);
+    --cg-nicewhite: #e9e8ee
   }
   
   html {
@@ -215,6 +216,23 @@
   
   /* CSS for resume page */
   
+  .resume-title {
+    padding-left: 20px;
+  }
+
+  .resume {
+    padding: 20px;
+    background-color: #b4b1b8;
+  }
+
+  .entry, .section-title, .course-list, .skill-list {
+    color: black;
+  }
+
+  .section-title, .entry-title {
+    font-style: bold;
+  }
+
   .button {
     background-color: var(--cg-black);
     border: none;
@@ -238,6 +256,10 @@
   
   /* CSS for contact form */
   
+  .resume {
+    color: var(--cg-nicewhite);
+  }
+
   label {
     display: block;
     margin-bottom: 8px;
@@ -280,3 +302,7 @@
   }
 
   /* CSS for blog */
+
+  .blog-text {
+
+  }
