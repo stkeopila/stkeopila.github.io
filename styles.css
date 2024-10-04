@@ -177,7 +177,7 @@
   
   .page-title-1 {
     padding: 20px;  
-    background-color: #b4b1b8;  
+    background-color: #ADD8E6;  
     margin-bottom: 20px;
     margin-top: 20px;
 
@@ -188,7 +188,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #b4b1b8;
+    background-color: white;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
