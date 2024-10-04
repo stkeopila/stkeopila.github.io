@@ -12,7 +12,7 @@
   }
   
   body {
-    background: red;
+    background: #ADD8E6;
     position: relative;
     min-height: 100vh;
     padding: 20;
@@ -35,7 +35,7 @@
     align-items: center;
     text-align: center;
   
-    background-color: var(ADD8E6);
+    background-color: #e6bbad;
     color: var(--cg-white);
     padding: 0px 0px;
   
@@ -55,7 +55,7 @@
   }
   
   .navbar a {
-    color: #e9e8ee;
+    color: black;
     font-weight: bold;
     margin: 0 12px;
     text-decoration: none;
@@ -95,11 +95,12 @@
     font-size: 30px;
     color: black;
     font-family: monospace;
-    background-color: blue;
+    background-color: #e6d8ad;
     padding-top: 0px;
     padding-left: 200px;
     padding-bottom: 0px;
     padding-right: 200px;
+    border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -176,8 +177,11 @@
   /* CSS for home page */
   
   .page-title-1 {
-    padding: 20px;  
-    background-color: black;  
+    padding: 10px;
+    padding-left: 20px;  
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: #e6d8ad;  
     margin-bottom: 20px;
     margin-top: 20px;
 
@@ -188,19 +192,22 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: white;
+    border-radius: 15px;
+    background-color: #e6d8ad;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
   .about-image img {
     max-width: 400px;
-    border-radius: 3px;
+    border-radius: 15px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
   
   .about-text {
     flex: 1;
     margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px
   }
   
   .about-text h2 {
@@ -218,11 +225,15 @@
   
   .resume-title {
     padding-left: 20px;
+    border-radius: 15px;
   }
 
   .resume {
     padding: 20px;
-    background-color: #ADD8E6;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #e6d8ad;
   }
 
   .entry, .section-title, .course-list, .skill-list {
@@ -230,7 +241,7 @@
   }
 
   .section-title, .entry-title, .entry-info {
-    font-style: bold;
+    font-weight: bold;
   }
 
 
@@ -263,7 +274,7 @@
 
   label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     font-family: Georgia;
     font-weight: bold;
   }
@@ -274,10 +285,11 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 30px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
     font-size: 16px;
     resize: none;
+    background-color: white;
   }
   
   /* Add some spacing to the form */
@@ -289,13 +301,13 @@
   /* CSS for footer */
   
   .footer {
-    font-style: bold;
+    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cg-black);
-    color: var(--cg-white);
+    background-color: #e6bbad;
+    color: black;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -304,9 +316,19 @@
 
   /* CSS for blog */
 
-  .blog-text, .project-description {
+  .project-description {
     padding: 20px;
-    margin-top: 30px;
-    background-color: #b4b1b8;
+
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e6d8ad;
+  }
+
+  .blog-text {
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #e6d8ad;
   }
 
