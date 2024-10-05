@@ -339,8 +339,7 @@
   }
   
   .about-image-blog img {
-    max-width: 100px;
-    height: auto;
+    max-width: 200px;
     border-radius: 15px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
